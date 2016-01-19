@@ -1,0 +1,99 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background-image: url(http://hqbzc.ecjtu.jx.cn/page/main284/images/bg.png);
+}
+
+.main{
+	width: 970px;
+	margin: 0px auto;
+	background-color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+li{
+	float: left;
+	list-style: none;
+	height: 100%;
+}
+
+a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: bold;
+	line-height: 30px;
+	height: 30px;
+}
+
+a:hover{
+	color: black;
+	background-color: #C2DFC8;
+}
+
+header{
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	top: 0px;
+}
+
+.footer-text{
+	text-align: center;
+	line-height: 20px;
+	color: white;
+	font-size: 15px;
+}
+
+footer{
+	height: 35px;
+	width: 100%;
+	background-color: #0F9F9F;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+ul{
+	background-color: #0F9F9F;
+	height: 30px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.banner{
+	height: 20px;
+	width: 100%;
+	background-color: green;
+	margin-bottom:5px; 
+	margin-top:5px; 
+}
+
+.top1{
+	height: 254px;
+	width: 100%;
+	background-color: grey;
+	margin-bottom:5px; 
+}
+
+.top2{
+	height: 94px;
+	width: 100%;
+	background-color: blue;
+	margin-bottom:5px; 
+}
+
+.top3{
+	height: 234px;
+	width: 100%;
+	background-color: red;
+	margin-bottom:5px; 
+}
+.top4{
+	height: 144px;
+	width: 100%;
+	background-color: yellow;
+	margin-bottom:5px; 
+}
