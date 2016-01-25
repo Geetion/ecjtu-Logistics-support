@@ -12,13 +12,20 @@ body{
 	padding-right: 5px;
 }
 
-li{
+.nav{
+	background-color: #0F9F9F;
+	height: 30px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav li{
 	float: left;
 	list-style: none;
 	height: 100%;
 }
 
-a{
+.nav li a{
 	display: block;
 	text-decoration: none;
 	color: white;
@@ -29,7 +36,7 @@ a{
 	height: 30px;
 }
 
-a:hover{
+.nav li a:hover{
 	color: black;
 	background-color: #C2DFC8;
 }
@@ -56,17 +63,10 @@ footer{
 	padding-bottom: 15px;
 }
 
-ul{
-	background-color: #0F9F9F;
-	height: 30px;
-	margin: 0px;
-	padding: 0px;
-}
-
 .banner{
 	height: 20px;
 	width: 100%;
-	background-color: green;
+	background-color: #999999;
 	margin-bottom:5px; 
 	margin-top:5px; 
 }
@@ -74,26 +74,79 @@ ul{
 .top1{
 	height: 254px;
 	width: 100%;
-	background-color: grey;
 	margin-bottom:5px; 
+}
+
+.newsCenter{
+	width: 650px;
+	height: 100%;
+	background-color: white;
+	border: 1px solid black;
+	float: left;
+}
+
+.notifiction{
+	width: 300px;
+	height: 100%;
+	background-color: white;
+	border: 1px solid black;
+	float: right;
 }
 
 .top2{
 	height: 94px;
 	width: 100%;
-	background-color: blue;
+	background-color: #DBF1E8;
 	margin-bottom:5px; 
+}
+
+.top2img{
+	float: left;
+	width: 105px;
+	height: 100%;
+}
+
+.top2 ul{
+	padding-top: 10px;
+	height: 100%;
+	width: 950px;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 0px;
+}
+
+.top2 ul li{
+	float: left;
+	list-style: none;
+	height: 100%;
+}
+
+.top2 ul li a{
+	display: block;
+	clear: both;
+	text-decoration: none;
+	color: black;
+	padding-left: 15px;
+	padding-right:15px;
+	font-weight: bold;
+	line-height: 30px;
+	height: 30px;
+	height: 100%;
+} 
+
+.top2 ul li a:hover{
+	color: red;
 }
 
 .top3{
 	height: 234px;
 	width: 100%;
-	background-color: red;
 	margin-bottom:5px; 
+	border: 1px solid black;
 }
 .top4{
 	height: 144px;
 	width: 100%;
-	background-color: yellow;
 	margin-bottom:5px; 
+	border: 1px solid black;
 }
